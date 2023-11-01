@@ -42,16 +42,16 @@
             <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
               <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-4">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="/home">Home</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="#about">Booking</a>
+                  <a class="nav-link" href="/services">Services</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="#service">Notification</a>
+                  <a class="nav-link"  href="/notification">Notification</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="#contact">contact</a>
+                  <a class="nav-link" href="/contact">Contact</a>
                 </li>
               </ul>
               <button class="navbar-nav ms-auto">

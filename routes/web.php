@@ -17,8 +17,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('services', function(){
+    return view('services');
+});
+
+Route::get('notification', function(){
+    return view('notification');
+});
+
+Route::get('contact', function(){
+    return view('contact');
+});
+
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('admin/home', [App\Http\Controllers\HomeController::class, 'adminHome'])->name('admin.home')->middleware('is_admin');
+
