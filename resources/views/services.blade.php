@@ -4,16 +4,19 @@
 
 <style>
     .container{
-        display: flex;
+        display: grid;
         justify-content: center;
+        
+        grid-template-columns: repeat(3,1fr);
     }
     .card{
         margin: 10px;
         
         background-color: #CD825B;
     }
-     h5{
-        text-align: center
+     h5, p{
+        text-align: center;
+        color: white;
     }
 </style>
 <div class="container">
@@ -22,7 +25,7 @@
 <div class="card" style="width: 18rem;">
   <img src="https://scontent.fozc1-1.fna.fbcdn.net/v/t39.30808-6/354602444_695747049230736_5534527285588015698_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=DOkToZd33fIAX8CeDlg&_nc_ht=scontent.fozc1-1.fna&oh=00_AfATM0iVMx8BehvQvsXpsfrKgj3q2d2Jgk7paxQTC7eLUQ&oe=6547C435" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title text-white">Birthday</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-dark ">Go somewhere</a>
   </div>
@@ -31,7 +34,7 @@
 <div class="card" style="width: 18rem;">
   <img src="https://scontent.fozc1-1.fna.fbcdn.net/v/t39.30808-6/354602444_695747049230736_5534527285588015698_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=DOkToZd33fIAX8CeDlg&_nc_ht=scontent.fozc1-1.fna&oh=00_AfATM0iVMx8BehvQvsXpsfrKgj3q2d2Jgk7paxQTC7eLUQ&oe=6547C435" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title text-white">Debut</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-dark">Go somewhere</a>
   </div>
@@ -40,7 +43,7 @@
 <div class="card" style="width: 18rem;">
     <img src="https://scontent.fozc1-1.fna.fbcdn.net/v/t39.30808-6/354602444_695747049230736_5534527285588015698_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=DOkToZd33fIAX8CeDlg&_nc_ht=scontent.fozc1-1.fna&oh=00_AfATM0iVMx8BehvQvsXpsfrKgj3q2d2Jgk7paxQTC7eLUQ&oe=6547C435" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+      <h5 class="card-title text-white">Acquintance Party</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-dark">Go somewhere</a>
     </div>
@@ -49,7 +52,16 @@
   <div class="card" style="width: 18rem;">
     <img src="https://scontent.fozc1-1.fna.fbcdn.net/v/t39.30808-6/354602444_695747049230736_5534527285588015698_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=DOkToZd33fIAX8CeDlg&_nc_ht=scontent.fozc1-1.fna&oh=00_AfATM0iVMx8BehvQvsXpsfrKgj3q2d2Jgk7paxQTC7eLUQ&oe=6547C435" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+      <h5 class="card-title text-white">Graduation</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-dark">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://scontent.fozc1-1.fna.fbcdn.net/v/t39.30808-6/354602444_695747049230736_5534527285588015698_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=DOkToZd33fIAX8CeDlg&_nc_ht=scontent.fozc1-1.fna&oh=00_AfATM0iVMx8BehvQvsXpsfrKgj3q2d2Jgk7paxQTC7eLUQ&oe=6547C435" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-white">Wedding</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-dark">Go somewhere</a>
     </div>
@@ -58,7 +70,7 @@
 <div class="card" style="width: 18rem;">
   <img src="https://scontent.fozc1-1.fna.fbcdn.net/v/t39.30808-6/354602444_695747049230736_5534527285588015698_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=DOkToZd33fIAX8CeDlg&_nc_ht=scontent.fozc1-1.fna&oh=00_AfATM0iVMx8BehvQvsXpsfrKgj3q2d2Jgk7paxQTC7eLUQ&oe=6547C435" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title text-white">Other</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-dark">Go somewhere</a>
   </div>
