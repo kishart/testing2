@@ -5,6 +5,7 @@
 <style>
     .container{
         display: flex;
+        justify-content: center;
     }
     .card{
         margin: 10px;
