@@ -15,11 +15,10 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('You are profile in!') }}
                 </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
-

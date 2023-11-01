@@ -15,11 +15,10 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('You are notification in!') }}
                 </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
-

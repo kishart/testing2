@@ -15,7 +15,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are notification in!') }}
+                    {{ __('You are notifiicaton in!') }}
                 </div>
             </div>
         </div>

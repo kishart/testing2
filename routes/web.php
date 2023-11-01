@@ -17,19 +17,35 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('services', function(){
-    return view('services');
+Route::middleware(['auth'])->group(function () {
+    Route::get('/home', function(){
+        return view('home');
+    });
 });
 
-Route::get('notification', function(){
-    return view('notification');
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/services', function(){
+        return view('services');
+    });
 });
 
-Route::get('contact', function(){
-    return view('contact');
+Route::middleware(['auth'])->group(function () {
+    Route::get('/notification', function(){
+        return view('notification');
+    });
 });
 
+Route::middleware(['auth'])->group(function () {
+    Route::get('/profile', function(){
+        return view('profile');
+    });
+});
+Route::middleware(['auth'])->group(function () {
+    Route::get('/contact', function(){
+        return view('contact');
+    });
+});
 
 
 Auth::routes();
